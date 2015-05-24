@@ -1,0 +1,8 @@
+var sevilla = {
+    "type": "FeatureCollection",
+    "features": [
+
+{ "type": "Feature", "properties": { "id": "", "provincia": "Sevilla", "localidad": "Sevilla", "name": "Enreda", "alias": "", "dire": "Avenida de la Republica Argentina 25 Planta 9 (Espacio RES) 41011 Sevilla", "cat": "Consultoria tecnologica y social", "des": "Enreda en una cooperativa de conocimiento abierto cuyo objetivo fundacional es implementar, desde la experiencia, dinámicas y  herramientas que favorezcan la soberanía tecnológica de la ciudadanía.", "time": "", "phone": "", "url": "http://enreda.coop", "twitter": "http://enreda.coop", "mail": "info@enreda.coop", "lat": "37.377736", "lon": "-6.001971" }, "geometry": { "type": "Point", "coordinates": [ -6.001971, 37.377736 ] } },
+
+]
+} 

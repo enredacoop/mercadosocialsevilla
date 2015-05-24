@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Mercado Social de Sevilla</title>
+        <meta name="description" content="Mercado Social de Sevilla">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css">
+        <!--[if lte IE 8]>
+            <link href='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.ie.css' rel='stylesheet'>
+        <![endif]-->
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="navbar navbar-default">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><b>Mercado Social de Sevilla</b></a>
+          </div>
+          <div class="navbar-collapse collapse navbar-responsive-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="proyecto.html">Proyecto</a></li>
+                <li><a href="principios.html">Principios</a></li>
+                <li><a href="entidades.html">Entidades</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="map" class="dark"></div>
+        
+        <div id="content-box" class="container col-md-6  ficha on">
+          <ul class="breadcrumb" style="margin-bottom: 5px;">
+              <li><a href="#">Entidad > </a></li>
+            <li class="active" id="name-breadcrumb"></li>
+          </ul>
+
+
+          <h1 id="name"></h1>
+          <div class="row">
+            <div class="col-md-4">
+              <ul class="list-group">
+                <li class="list-group-item">
+                <span class="glyphicon glyphicon-phone"></span>
+                <span id="phone"></span>
+                </li>
+                <li class="list-group-item">
+                <span class="glyphicon glyphicon-link"></span>
+                  <span id="url"></span>
+                </li>
+                <li class="list-group-item">
+                  <span class="glyphicon glyphicon-envelope"></span>
+                  <span id="mail"></span>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-8">
+              <p id="des"></p>
+              <h3 id="direccion"></h3>
+              <span id="cat" class="label label-warning"></span>
+              <br><br><br>
+              <button id='close' type='button' class='btn'><i class='glyphicon glyphicon-remove-circle'></i> Close</button>
+            </div>
+          </div>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+        <script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
+
+        <script src="http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.js"></script>
+
+        <script src="data/sevilla.geojson" type="text/javascript"></script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
