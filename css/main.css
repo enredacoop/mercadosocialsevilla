@@ -175,6 +175,10 @@ a, a:hover, a:focus, a:visited {
     color: #080;
 }
 
+a.inverse, a.inverse:hover, a.inverse:focus, a.inverse:visited {
+    color: #fff;
+}
+
 #close {
     float: right;
 }

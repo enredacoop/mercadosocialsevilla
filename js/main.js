@@ -1,5 +1,5 @@
 var map = L.map('map').
-    setView([37.37, -5.93], 12);
+    setView([37.32, -5.95], 12);
 
 // OFFICIAL http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
 // OFFICIAL more info: http://{s}.tile.osm.org/{z}/{x}/{y}.png
@@ -30,10 +30,11 @@ L.geoJson(sevilla, {
     $('#name').html(d.layer.feature.properties.name);
     $('#des').text(d.layer.feature.properties.des);
     $('#cat').text(d.layer.feature.properties.cat);
-    $('#direccion').html("<span class='glyphicon glyphicon-map-marker'></span> " + d.layer.feature.properties.dire + " - " + d.layer.feature.properties.localidad + "(" + d.layer.feature.properties.provincia + ")");
+    $('#direccion').html("<span class='glyphicon glyphicon-map-marker'></span> " + d.layer.feature.properties.dire + " - " + d.layer.feature.properties.localidad + " (" + d.layer.feature.properties.provincia + ")");
     $('#phone').text(d.layer.feature.properties.phone);
     $('#url').html("<a href='" + d.layer.feature.properties.url + "' target='_blank'>" + d.layer.feature.properties.url + "</a>");
     $('#mail').html("<a href='mailto:" + d.layer.feature.properties.mail + "' target='_blank'>" + d.layer.feature.properties.mail + "</a>");
+    $('#time').text(d.layer.feature.properties.time);
     $('#content-box').show();
 })
 .addTo(map);
