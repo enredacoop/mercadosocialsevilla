@@ -1,5 +1,5 @@
 var map = L.map('map').
-    setView([37.32, -5.95], 12);
+    setView([37.32, -5.95], 11);
 
 // OFFICIAL http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
 // OFFICIAL more info: http://{s}.tile.osm.org/{z}/{x}/{y}.png
