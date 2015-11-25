@@ -187,7 +187,10 @@ a.inverse, a.inverse:hover, a.inverse:focus, a.inverse:visited {
     overflow: scroll;
 }
 
-
+.actividades, th, td { border: 1px solid #333; padding: 5px; }
+.actividades tr td:nth-child(1) { width: 20% }
+.actividades tr td:nth-child(2) { width: 30% }
+.actividades tr td:nth-child(3) { width: 50% }
 
 
 
