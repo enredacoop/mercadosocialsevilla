@@ -68,5 +68,7 @@ var sevilla = {
 
 { "type": "Feature", "properties": { "id": "", "provincia": "Sevilla", "localidad": "Alcalá del Río", "name": "Vegaloe", "alias": "", "dire": "Mesones 8", "cat": "", "des": "Pequeño productor de 1 Ha de aloe vera en ecológico certificado por CAAE", "time": "", "phone": "651 588 946 (José Enrique)", "url": "https://es-es.facebook.com/alfonso.mazuecosgarcia", "twitter": "", "mail": "aloealcaladelrio@gmail.com", "lat": "37.516823", "lon": "-5.980250" }, "geometry": { "type": "Point", "coordinates": [ -5.980250, 37.516823 ] } },
 
+{ "type": "Feature", "properties": { "id": "", "provincia": "Sevilla", "localidad": "Sevilla", "name": "Banco del Tiempo de Triana", "alias": "", "dire": "Centro Cívico Las Columnas, en Pureza 79", "cat": "Banco del tiempo", "des": "El Banco del Tiempo de Triana  es una iniciativa que nació  en la Asamblea del 15M de Triana  como una respuesta a la crisis. Trabajamos en fomentar la colaboración y el intercambio vecinal. El Banco del Tiempo organiza periódicamente un Mercado del Trueque y desde el año pasado dispone de una parcela en los huertos urbanos del parque de la Vega.", "time": "", "phone": "", "url": "http://bancodeltiempotriana.blogspot.com.es", "twitter": "", "mail": "bancodeltiempotriana@gmail.com", "lat": "37.383141", "lon": "-6.000237" }, "geometry": { "type": "Point", "coordinates": [ -6.000237, 37.383141 ] } },
+
 ]
 }
