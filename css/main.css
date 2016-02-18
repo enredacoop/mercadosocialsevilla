@@ -193,6 +193,15 @@ a.inverse, a.inverse:hover, a.inverse:focus, a.inverse:visited {
 .actividades tr td:nth-child(3) { width: 50% }
 
 
+#elements h3 {
+  font-weight: bold;
+}
+#elements p {
+  font-size: 12px;
+}
+#elements p.desc {
+  color: #555;
+}
 
 
 
