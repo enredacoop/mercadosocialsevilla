@@ -20,8 +20,8 @@ $(document).ready(function(){
   console.log(shuffled_elements);
   $(shuffled_elements).each(function (index) {
     var prop = shuffled_elements[index].properties;
-    if (revised_entities.indexOf(prop.name) < 0) {
-      revised_entities.push(prop.name);
+    // if (revised_entities.indexOf(prop.name) < 0) {
+      // revised_entities.push(prop.name);
       html += "<div class='row well'>";
       html += "<div class='col-sm-4'>";
       html += "<h3>"+prop.name+"</h3><hr><span id='cat' class='label label-warning'>"+prop.cat+"</span><p>"+prop.dire+"<br/>"+prop.localidad+" ("+prop.provincia+")</p><span class='glyphicon glyphicon-link'></span> <a href='"+prop.url+"' target='_blank'>Visita su web</a><br/><span class='glyphicon glyphicon-envelope'></span> "+prop.mail+"<br/><span class='glyphicon glyphicon-phone'></span> "+prop.phone;
@@ -30,7 +30,7 @@ $(document).ready(function(){
       html += "<p class='desc'>"+prop.des+"</p>";
       html += "</div>";
       html += "</div>";
-    }
+    // }
   });
   $('#elements').html(html);
 });
